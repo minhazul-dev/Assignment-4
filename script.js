@@ -54,7 +54,7 @@ function togglePopup() {
     document.getElementById("popup-1").classList.toggle("active");
 }
 
-hide(document.querySelectorAll('.total-hidden'));  //checking the total amount is calculation or not
+hide(document.querySelectorAll('.total-hidden'));  //for checking the total amount is calculating or not
 function hide(elements) {
     elements = elements.length ? elements : [elements];
     for (var i = 0; i < elements.length; i++) {
